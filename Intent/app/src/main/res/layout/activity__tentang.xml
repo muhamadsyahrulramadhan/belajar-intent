@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tentang"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Tentang">
+
+    <TextView
+        android:id="@+id/hed"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#B80909"
+        android:text="Belajar Intent :"
+        android:textColor="#C7C6C6"
+        android:textSize="30dp"
+        android:textAlignment="inherit"/>
+
+    <TextView
+        android:text="Ini adalah aplikasi belajar intent"
+        android:textSize="24dp"
+        android:textColor="#132CB6"
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="91dp"/>
+
+</RelativeLayout>
